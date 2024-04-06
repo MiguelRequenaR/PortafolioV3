@@ -1,0 +1,52 @@
+[
+    {
+        "icon": "https://svgl.app/library/javascript.svg",
+        "label": "JavaScript",
+        "name": "javascript"
+    },
+    {
+        "icon": "https://svgl.app/library/react.svg",
+        "label": "React",
+        "name": "react"
+    },
+    {
+        "icon": "https://svgl.app/library/nodejs.svg",
+        "label": "Node.js",
+        "name": "nodejs"
+    },
+    {
+        "icon": "https://svgl.app/library/mysql.svg",
+        "label": "MySQL",
+        "name": "mysql"
+    },
+    {
+        "icon": "https://svgl.app/library/postgresql.svg",
+        "label": "PostgreSQL",
+        "name": "postgresql"
+    },
+    {
+        "icon": "https://svgl.app/library/typescript.svg",
+        "label": "TypeScript",
+        "name": "typescript"
+    },
+    {
+        "icon": "https://svgl.app/library/tailwindcss.svg",
+        "label": "Tailwind CSS",
+        "name": "tailwind-css"
+    },
+    {
+        "icon": "https://svgl.app/library/figma.svg",
+        "label": "Figma",
+        "name": "figma"
+    },
+    {
+        "icon": "https://svgl.app/library/photoshop.svg",
+        "label": "Photoshop",
+        "name": "photoshop"
+    },
+    {
+        "icon": "https://svgl.app/library/illustrator.svg",
+        "label": "Illustrator",
+        "name": "illustrator"
+    }
+]
