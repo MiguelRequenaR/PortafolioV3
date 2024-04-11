@@ -4,7 +4,7 @@ import 'remixicon/fonts/remixicon.css'
 const About = () => {
     return (
         <section 
-            className="flex flex-col lg:flex-row lg:justify-center gap-4 pt-24 lg:pt-16 px-4 items-center bg-white pb-24"
+            className="flex flex-col lg:flex-row lg:justify-center gap-4 pt-24 lg:pt-16 px-4 items-center bg-[#fdfff5] pb-24"
             id='about'
         >
             <div 

@@ -23,7 +23,12 @@ const Home = () => {
                     <div>
                         <span className='text-6xl font-black text-white'>Miguel Angel</span>
                     </div>
-                    <div className='space-x-5'>
+                    <div 
+                        className='space-x-5'
+                        data-aos='fade-left'
+                        data-aos-delay='200'
+                        data-aos-duration='500'
+                    >
                         {icons.map((icon, index) => (
                             <a 
                                 href={icon.link}

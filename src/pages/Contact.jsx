@@ -8,7 +8,7 @@ const Contact = () => {
             data-aos-delay="200"
             data-aos-duration="500"
         >
-            <h3 className="text-5xl text-center text-black font-light">¡Conectate conmigo!</h3>
+            <h3 className="text-5xl text-center text-black font-light">¡Contáctate conmigo!</h3>
             <p className="text-black pb-20 text-center">
                 Abierto a las oportunidades de colaborar en proyectos. Conectémonos para crear soluciones digitales e innovadoras.
             </p>

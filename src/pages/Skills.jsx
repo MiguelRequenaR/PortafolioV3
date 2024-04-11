@@ -2,8 +2,13 @@ import SkillsData from '../data/skills.json'
 
 const Skills = () => {
     return (
-        <div className="pt-32 lg:pt-16 text-center lg:space-y-20 space-y-16 bg-white pb-32" id='skills'>
-            <div className="text-center space-y-10">
+        <div className="pt-32 lg:pt-16 text-center lg:space-y-20 space-y-16 bg-[#fdfff5] pb-32" id='skills'>
+            <div 
+                className="text-center space-y-10"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="500"
+            >
                 <span className="bg-indigo-600 w-20 text-white font-bold p-1 rounded-lg">Habilidades</span>
                 <h3 className="lg:text-3xl text-2xl text-black font-black">Mis habilidades</h3>
             </div>
