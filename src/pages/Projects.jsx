@@ -1,7 +1,5 @@
 import ProjectCard from "../components/ProjectCard"
 import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project3 from "../assets/project3.png"
 
 const Projects = () => {
 
@@ -13,18 +11,6 @@ const Projects = () => {
             button: "Ver en GitHub",
             link: "https://github.com/kralion/expense-tracker",
         },
-        {
-            title: "Constructora Marbella",
-            description: "Sitio web para la empresa constructora Marbella.",
-            image: project2,
-            link: "https://github.com/MiguelRequenaR/ConstrucMarbella",
-        },
-        {
-            title: "Dashboard Marbella",
-            description: "Dashboard para la empresa constructora Marbella.",
-            image: project3,
-            link: "https://github.com/MiguelRequenaR/dashboardmarbella-remix",
-        }
     ]
     return (
         <div className="pt-32 text-center bg-[#fdfff5] pb-32 " id="project">

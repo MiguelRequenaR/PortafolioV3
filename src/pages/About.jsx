@@ -20,8 +20,7 @@ const About = () => {
                     </h3>
                     <div className='text-gray-600 lg:px-0 lg:w-3/4 w-full'>
                         <p>
-                            Egresado de la carrera profesional de Ingeniería de Sistemas, con experiencia en el diseño gráfico y desarrollo de aplicaciones web. Con conocimientos en <span className='text-indigo-500 font-bold'>Adobe Photoshop, Ilustrator, Figma </span>
-                            y en tecnologías como <span className='text-indigo-500 font-bold'>HTML, CSS, JavaScript, React, Vite, MySQL, Supabase, Git, GitHub, entre otros.</span>
+                            Ingeniero de Sistemas, con experiencia en el desarrollo web y diseño gráfico. Con conocimientos en <span className='text-indigo-500 font-bold'>HTML, CSS, JavaScript, Typescript, React, Vite, MySQL, Supabase, Git, GitHub, entre otros</span>, y en el ámbito del diseño en <span className='text-indigo-500 font-bold'>Adobe Photoshop, Ilustrator, y Figma.</span>
                         </p>
                     </div>
                 </div>
