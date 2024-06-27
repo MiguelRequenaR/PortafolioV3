@@ -8,8 +8,8 @@ const Contact = () => {
             data-aos-delay="200"
             data-aos-duration="500"
         >
-            <h3 className="text-5xl text-center text-black font-light">¡Contáctate conmigo!</h3>
-            <p className="text-black pb-20 text-center">
+            <h3 className="text-5xl text-center text-white font-bold">¡Contáctate conmigo!</h3>
+            <p className="text-gray-400 pb-20 text-center font-semibold">
                 Abierto a las oportunidades de colaborar en proyectos. Conectémonos para crear soluciones digitales e innovadoras.
             </p>
             <div
@@ -22,17 +22,17 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <button className="btn uppercase text-white hover:scale-125 transition-transform duration-500 ease-in-out">
+                    <button className="btn btn-neutral uppercase text-white hover:scale-125 transition-transform duration-500 ease-in-out font-light">
                         Contacta conmigo
                     </button>
                 </a>
             </div>
             <div className="flex gap-2 items-center mx-auto text-black">
-                <hr className="border border-black/50 w-20 rounded-md " />
-                or
-                <hr className="rounded-md border border-black/50 w-20" />
+                <hr className="border border-white w-20 rounded-md " />
+                    <p className="text-white">or</p>
+                <hr className="rounded-md border border-white w-20" />
             </div>
-            <span className="text-black font-light hover:opacity-50 cursor-pointer">m.angelrequena20@gmail.com</span>
+            <span className="text-gray-400 font-light">m.angelrequena20@gmail.com</span>
         </div>
     )
 }

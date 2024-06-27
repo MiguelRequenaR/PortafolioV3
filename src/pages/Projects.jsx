@@ -20,8 +20,8 @@ const Projects = () => {
                 data-aos-delay="200"
                 data-aos-duration="500"
             >
-                <span className="bg-indigo-600 w-20 text-center text-white font-bold p-1 rounded-lg">Proyectos</span>
-                <h3 className="lg:text-4xl text-2xl text-black font-black">Proyectos</h3>
+                <span className="bg-cyan-500 text-center w-32 text-white font-light px-2 py-1 rounded-lg">Proyectos</span>
+                <h3 className="lg:text-4xl text-2xl font-normal text-black">Proyectos</h3>
             </div>
             <div>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16 lg:px-20 px-5 py-10">

@@ -9,8 +9,8 @@ const Skills = () => {
                 data-aos-delay="200"
                 data-aos-duration="500"
             >
-                <span className="bg-indigo-600 w-20 text-white font-bold p-1 rounded-lg">Habilidades</span>
-                <h3 className="lg:text-3xl text-2xl text-black font-black">Mis habilidades</h3>
+                <span className="bg-cyan-500 w-32 text-white font-light px-2 py-1 rounded-lg">Habilidades</span>
+                <h3 className="lg:text-3xl text-2xl font-normal text-black">Mis habilidades</h3>
             </div>
             <div className='grid grid-cols-2 border-2 lg:border-none border-dashed rounded-lg lg:mx-72 mx-5 lg:grid-cols-5 lg:gap-y-14 lg:py-5 lg:px-3 justify-center'>
                 {SkillsData.map((skill, index) => (

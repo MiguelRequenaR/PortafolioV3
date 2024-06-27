@@ -1,5 +1,5 @@
 import 'remixicon/fonts/remixicon.css'
-import { TypeAnimation } from 'react-type-animation'
+import '../styles/Home.css'
 
 const Home = () => {
 
@@ -15,54 +15,41 @@ const Home = () => {
             link: 'https://github.com/MiguelRequenaR'
         },
     ]
+    //estilos
+
+
 
     return (
         <div className='flex h-screen items-center justify-center' id='home'>
             <div className='flex flex-col'>
                 <header className='hidden lg:flex rounded-lg gap-16 justify-center items-center p-10'>
-                    <div>
-                        <span className='text-6xl font-black text-white'>Miguel Angel</span>
+                    <div className=" p-8">
+                        <p className="text-white-400 text-2xl mb-2">My</p>
+                        <h1 className="text-6xl font-bold">
+                            <span className="text-outline">Port</span><span className="text-gray-400">folio.</span>
+                        </h1>
                     </div>
-                    <div 
+                    <div
                         className='space-x-5'
                         data-aos='fade-left'
                         data-aos-delay='200'
                         data-aos-duration='500'
                     >
                         {icons.map((icon, index) => (
-                            <a 
+                            <a
                                 href={icon.link}
                                 key={index}
                                 target='_blank'
                             >
-                                <button 
-                                    className='btn hover:scale-150 transition-transform duration-500 ease-in-out'
+                                <button
+                                    className='btn btn-neutral hover:scale-125 transition-transform duration-500 ease-in-out group'
                                 >
-                                    <i className={`text-white text-xl ${icon.icon}`}></i>
+                                    <i className={`text-white text-xl ${icon.icon} group-hover:text-cyan-300 transition-colors duration-500 ease-in-out`}></i>
                                 </button>
                             </a>
                         ))}
                     </div>
                 </header>
-                <div>
-                    <div>
-                        <span>
-                            <TypeAnimation
-                                className="text-6xl text-center text-black font-black"
-                                cursorColor="cyan"
-                                sequence={['Full Stack Developer']}
-                                wrapper="h1"
-                                cursor={false}
-                            />
-                        </span>
-                        <TypeAnimation
-                                className="text-6xl text-center text-cyan-400 font-black"
-                                cursorColor="cyan"
-                                sequence={['Desarrollador Web', 'Diseñador Gráfico']}
-                                wrapper="p"
-                        />
-                    </div>
-                </div>
             </div>
         </div>
     )
