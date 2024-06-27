@@ -5,7 +5,6 @@ const About = () => {
     return (
         <section 
             className="flex flex-col lg:flex-row lg:justify-center gap-4 pt-24 lg:pt-16 px-4 items-center bg-[#fdfff5] pb-24"
-            id='about'
         >
             <div 
                 className='flex flex-col lg:w-1/2 gap-5'
@@ -13,7 +12,7 @@ const About = () => {
                 data-aos-delay='200'
                 data-aos-duration='500'
             >
-                <span className='bg-cyan-500 text-center w-32 text-white font-light px-2 py-1 rounded-lg'>Sobre mí</span>
+                <span className='bg-gray-900 text-center w-32 text-white font-light px-2 py-1 rounded-lg'>Sobre mí</span>
                 <div className='flex flex-col space-y-5'>
                     <h3 className='lg:text-3xl text-2xl font-normal text-black'>
                         ¿Quien soy y que hago?

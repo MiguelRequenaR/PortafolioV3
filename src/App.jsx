@@ -33,7 +33,7 @@ function App() {
         () => ({
             background: {
                 color: {
-                    value: "#0d47a1",
+                    value: "#111827",
                 },
             },
             fpsLimit: 120,

@@ -16,8 +16,8 @@ const ProjectCard = ({title, description, image, link}) => {
                     />
                 </figure>
                 <div className="card-body items-center text-center space-y-5">
-                    <h2 className="card-title text-zinc-800 font-normal text-4xl">{title}</h2>
-                    <p className='text-gray-700 text-sm font-light'>{description}</p>
+                    <h2 className="card-title text-zinc-800 font-light text-3xl">{title}</h2>
+                    <p className='text-gray-700 text-sm font-extralight'>{description}</p>
                     <div className="card-actions">
                          <a 
                             href={link}

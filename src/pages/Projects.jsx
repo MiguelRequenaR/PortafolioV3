@@ -13,14 +13,14 @@ const Projects = () => {
         },
     ]
     return (
-        <div className="pt-32 text-center bg-[#fdfff5] pb-32 " id="project">
+        <div className="pt-32 text-center bg-[#fdfff5] pb-32 ">
             <div 
                 className="flex flex-col space-y-10 items-center"
                 data-aos="zoom-in"
                 data-aos-delay="200"
                 data-aos-duration="500"
             >
-                <span className="bg-cyan-500 text-center w-32 text-white font-light px-2 py-1 rounded-lg">Proyectos</span>
+                <span className="bg-gray-900 text-center w-32 text-white font-light px-2 py-1 rounded-lg">Proyectos</span>
                 <h3 className="lg:text-4xl text-2xl font-normal text-black">Proyectos</h3>
             </div>
             <div>

@@ -2,14 +2,13 @@
 const Contact = () => {
     return (
         <div 
-            id="contact" 
             className="pt-32 flex flex-col justify-center items-center space-y-5 pb-32"
             data-aos="fade-in"  
             data-aos-delay="200"
             data-aos-duration="500"
         >
             <h3 className="text-5xl text-center text-white font-bold">¡Contáctate conmigo!</h3>
-            <p className="text-gray-400 pb-20 text-center font-semibold">
+            <p className="text-gray-400 pb-20 text-center font-light">
                 Abierto a las oportunidades de colaborar en proyectos. Conectémonos para crear soluciones digitales e innovadoras.
             </p>
             <div
@@ -22,7 +21,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <button className="btn btn-neutral uppercase text-white hover:scale-125 transition-transform duration-500 ease-in-out font-light">
+                    <button className="btn btn-neutral uppercase text-white hover:scale-110 transition-transform duration-500 ease-in-out font-light">
                         Contacta conmigo
                     </button>
                 </a>
