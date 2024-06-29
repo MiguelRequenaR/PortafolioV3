@@ -3,18 +3,18 @@ import 'remixicon/fonts/remixicon.css'
 
 const About = () => {
     return (
-        <section 
+        <section
             className="flex flex-col lg:flex-row lg:justify-center gap-4 pt-24 lg:pt-16 px-4 items-center bg-[#fdfff5] pb-24"
         >
-            <div 
+            <div
                 className='flex flex-col lg:w-1/2 gap-5'
                 data-aos='fade-in'
                 data-aos-delay='200'
                 data-aos-duration='500'
             >
-                <span className='bg-gray-900 text-center w-32 text-white font-light px-2 py-1 rounded-lg'>Sobre mí</span>
+                <span className='bg-cyan-500 text-center w-32 text-white font-semibold px-2 py-1 rounded-lg'>Sobre mí</span>
                 <div className='flex flex-col space-y-5'>
-                    <h3 className='lg:text-3xl text-2xl font-normal text-black'>
+                    <h3 className='lg:text-3xl text-2xl font-normal text-gray-700'>
                         ¿Quien soy y que hago?
                     </h3>
                     <div className='text-gray-600 lg:px-0 lg:w-3/4 w-full'>
@@ -23,7 +23,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <a 
+                <a
                     href="https://drive.google.com/file/d/19VklqRcxQXAxPPBLWobt4cQX3Dzrwkqu/view?usp=drive_link"
                     target='_blank'
                     className='w-fit group'
@@ -41,7 +41,7 @@ const About = () => {
                 data-aos-duration='1000'
                 src={Perfil}
                 alt="foto de perfil"
-                className='rounded-full w-[300px] h-[300px] object-cover' 
+                className='rounded-full w-[300px] h-[300px] object-cover'
             />
         </section>
     )

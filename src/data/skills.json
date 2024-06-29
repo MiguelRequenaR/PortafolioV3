@@ -1,4 +1,14 @@
-[
+[   
+    {
+        "icon": "https://svgl.app/library/html5.svg",
+        "label": "HTML5",
+        "name": "html5"
+    },
+    {
+        "icon": "https://svgl.app/library/css.svg",
+        "label": "CSS3",
+        "name": "css3"
+    },
     {
         "icon": "https://svgl.app/library/javascript.svg",
         "label": "JavaScript",
@@ -15,6 +25,36 @@
         "name": "nodejs"
     },
     {
+        "icon": "https://svgl.app/library/typescript.svg",
+        "label": "TypeScript",
+        "name": "typescript"
+    },
+    {
+        "icon": "https://svgl.app/library/tailwindcss.svg",
+        "label": "Tailwind CSS",
+        "name": "tailwind-css"
+    },
+    {
+        "icon": "https://svgl.app/library/electron.svg",
+        "label": "ElectronJS",
+        "name": "electronjs"
+    },
+    {
+        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+        "label": "ExpressJS",
+        "name": "expressjs"
+    },
+    {
+        "icon": "https://svgl.app/library/git.svg",
+        "label": "Git",
+        "name": "git"
+    },
+    {
+        "icon": "https://svgl.app/library/github.svg",
+        "label": "GitHub",
+        "name": "github"
+    },
+    {
         "icon": "https://svgl.app/library/mysql.svg",
         "label": "MySQL",
         "name": "mysql"
@@ -25,14 +65,9 @@
         "name": "postgresql"
     },
     {
-        "icon": "https://svgl.app/library/typescript.svg",
-        "label": "TypeScript",
-        "name": "typescript"
-    },
-    {
-        "icon": "https://svgl.app/library/tailwindcss.svg",
-        "label": "Tailwind CSS",
-        "name": "tailwind-css"
+        "icon": "https://svgl.app/library/supabase.svg",
+        "label": "Supabase",
+        "name": "supabase"
     },
     {
         "icon": "https://svgl.app/library/figma.svg",
