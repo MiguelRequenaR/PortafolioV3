@@ -11,7 +11,7 @@ const Projects = () => {
             image: project1,
             button: "Ver en GitHub",
             link: "https://github.com/kralion/expense-tracker",
-            techs: ["react", "tailwind-css", "typescript"], 
+            techs: ["react", "tailwind-css", "typescript"],
         },
         {
             title: "INAN - Intranet",
@@ -24,7 +24,7 @@ const Projects = () => {
     ]
     return (
         <div className="pt-32 text-center bg-[#fdfff5] pb-32 ">
-            <div 
+            <div
                 className="flex flex-col space-y-10 items-center"
                 data-aos="zoom-in"
                 data-aos-delay="200"
@@ -37,7 +37,7 @@ const Projects = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16 lg:px-20 px-5 py-10">
                     {
                         projects.map((project, index) => (
-                            <ProjectCard 
+                            <ProjectCard
                                 key={index}
                                 title={project.title}
                                 description={project.description}
@@ -47,7 +47,7 @@ const Projects = () => {
                             />
                         ))
                     }
-                </div>  
+                </div>
             </div>
         </div>
     )
