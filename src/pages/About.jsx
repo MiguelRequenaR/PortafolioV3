@@ -18,8 +18,8 @@ const About = () => {
                         ¿Quien soy y que hago?
                     </h3>
                     <div className='text-gray-600 lg:px-0 lg:w-3/4 w-full'>
-                        <p>
-                            Ingeniero de Sistemas, con experiencia en el desarrollo web y diseño gráfico. Con conocimientos en <span className='text-indigo-500 font-semibold'>HTML, CSS, JavaScript, Typescript, React, Vite, MySQL, Supabase, Git, GitHub, entre otros</span>, y en el ámbito del diseño en <span className='text-indigo-500 font-semibold'>Adobe Photoshop, Ilustrator, y Figma.</span>
+                        <p className='text-justify text-lg'>
+                            Bachiller en Ingeniería de Sistemas, con una sólida formación académica y experiencia, en el ámbito del diseño y desarrollo web. Me considero una persona proactiva y orientada a resultados, siempre buscando desafíos y soluciones innovadores. Con conocimientos en <span className='text-indigo-500 font-semibold'>HTML, CSS, JavaScript, Typescript, React, Vite, MySQL, Supabase, Git, GitHub, entre otros</span>, y en el ámbito del diseño en <span className='text-indigo-500 font-semibold'>Adobe Photoshop, Ilustrator, y Figma.</span>
                         </p>
                     </div>
                 </div>
