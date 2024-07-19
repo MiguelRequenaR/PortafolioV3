@@ -10,7 +10,7 @@ const Skills = () => {
                 data-aos-duration="500"
             >
                 <span className="bg-cyan-500 w-32 text-white font-semibold px-2 py-1 rounded-lg">Habilidades</span>
-                <h3 className="lg:text-3xl text-2xl font-normal text-gray-700">Mis habilidades</h3>
+                <h3 className="lg:text-4xl text-2xl font-normal text-gray-700">Mis habilidades</h3>
             </div>
             <div className='grid grid-cols-2 border-2 lg:border-none border-dashed rounded-lg lg:mx-72 mx-5 lg:grid-cols-5 lg:gap-y-14 lg:py-5 lg:px-3 justify-center'>
                 {SkillsData.map((skill, index) => (

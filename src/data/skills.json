@@ -50,7 +50,7 @@
         "name": "git"
     },
     {
-        "icon": "https://svgl.app/library/github.svg",
+        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
         "label": "GitHub",
         "name": "github"
     },
@@ -68,6 +68,16 @@
         "icon": "https://svgl.app/library/supabase.svg",
         "label": "Supabase",
         "name": "supabase"
+    },
+    {
+        "icon": "https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png",
+        "label": "Astro",
+        "name": "astro"
+    },
+    {
+        "icon": "https://svgl.app/library/wordpress.svg",
+        "label": "Wordpress",
+        "name": "wordpress"
     },
     {
         "icon": "https://svgl.app/library/figma.svg",

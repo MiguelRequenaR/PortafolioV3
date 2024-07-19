@@ -1,6 +1,6 @@
 import skills from "../data/skills.json"
 
-const ProjectCard = ({ title, description, image, link, techs }) => {
+const ProjectCard = ({ title, description, image, link, techs, button }) => {
 
     const techIcons = techs.map(techName => skills.find(skill => skill.name === techName));
 
@@ -44,7 +44,7 @@ const ProjectCard = ({ title, description, image, link, techs }) => {
                         <button
                             className='flex gap-2 items-center btn btn-neutral text-white font-bold hover:scale-110 transition-transform duration-500 ease-in-out group-hover:text-cyan-500'
                         >
-                            Ver en GitHub
+                            {button}
                             <i className="ri-external-link-line "></i>
                         </button>
                     </a>

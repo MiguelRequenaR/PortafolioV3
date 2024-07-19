@@ -1,6 +1,7 @@
 import ProjectCard from "../components/ProjectCard"
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
+import project3 from "../assets/project3.png"
 
 const Projects = () => {
 
@@ -9,8 +10,8 @@ const Projects = () => {
             title: "Expense Tracker - Mobile",
             description: "Aplicación movil para el seguimiento y control de gastos financieros.",
             image: project1,
-            button: "Ver en GitHub",
-            link: "https://github.com/kralion/expense-tracker",
+            button: "Vista previa",
+            link: "https://monedo.vercel.app/",
             techs: ["react", "tailwind-css", "typescript"],
         },
         {
@@ -20,6 +21,14 @@ const Projects = () => {
             button: "Ver en GitHub",
             link: "https://github.com/mky-corp/electron-inan",
             techs: ["react", "typescript", "tailwind-css", "electronjs", "expressjs", "postgresql"],
+        },
+        {
+            title: "Blue - Motors",
+            description: "Sitio web Ecommerce para ventas de motocicletas, con Wordpress como CMS.",
+            image: project3,
+            button: "Vista previa",
+            link: "https://github.com/mky-corp/electron-inan",
+            techs: ["astro", "tailwind-css", "wordpress"],
         }
     ]
     return (
@@ -44,6 +53,7 @@ const Projects = () => {
                                 image={project.image}
                                 techs={project.techs}
                                 link={project.link}
+                                button={project.button}
                             />
                         ))
                     }
