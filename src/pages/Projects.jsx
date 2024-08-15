@@ -27,8 +27,8 @@ const Projects = () => {
             description: "Sitio web Ecommerce para ventas de motocicletas, con Wordpress como CMS.",
             image: project3,
             button: "Vista previa",
-            link: "https://github.com/mky-corp/electron-inan",
-            techs: ["astro", "tailwind-css", "wordpress"],
+            link: "https://blue-motors.netlify.app/",
+            techs: ["react", "tailwind-css", "wordpress"],
         }
     ]
     return (
