@@ -37,7 +37,7 @@ const About = () => {
                 </a>
             </div>
             <img
-                data-aos='slide-left'
+                data-aos='fade-up'
                 data-aos-duration='1000'
                 src={Perfil}
                 alt="foto de perfil"
