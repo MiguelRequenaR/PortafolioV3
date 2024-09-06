@@ -32,7 +32,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div className="pt-32 text-center bg-[#fdfff5] pb-32 ">
+        <div className=" text-center bg-[#fdfff5] pb-32 ">
             <div
                 className="flex flex-col space-y-10 items-center"
                 data-aos="zoom-in"

@@ -24,7 +24,7 @@ const Home = () => {
             <div className='flex flex-col'>
                 <header className=' lg:flex rounded-lg gap-16 justify-center items-center p-10'>
                     <div className="p-8">
-                        <p className="text-white-400 text-2xl mb-2">My</p>
+                        <p className="text-white-400 text-cyan-500 font-semibold text-2xl mb-2">My</p>
                         <h1 className="lg:text-[100px] text-6xl font-bold">
                             <span className="text-outline">Port</span><span className="text-cyan-200">folio.</span>
                         </h1>
